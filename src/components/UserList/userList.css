@@ -1,0 +1,28 @@
+.user-lists{
+    width: 50%;
+    min-width: 500px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow-y: auto;
+    height: 50vh;   /*화면에 보이는 view포트의 비율 상대적이다. , 반응형 만들때 vh수직, vw수평*/
+    max-height: 500px;
+}
+
+.user-list{
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-list > img {border-radius: 50%;}
+
+.user-list > .user-name{
+    margin: 0  0.5rem;
+    text-transform: uppercase;
+    width: 300px;
+    text-align: left;
+}
+.user-list >.online.on{color: rgb(246, 136, 194);font-weight: 500;}
+.user-list > .online.off{color: rgba(246, 136, 194,.5);font-weight: 500;}

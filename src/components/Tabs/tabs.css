@@ -1,0 +1,59 @@
+.tab{
+    width: 100%;
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+.tab-title{
+        display: flex;
+        font-size: 1rem;
+        border-top: 1px solid rgb(184, 183, 183);
+        border-bottom: 1px solid rgb(184, 183, 183);
+}
+
+.btn{
+    /*자기의 크기가 없기에 현재 자기의 글자 크기로 padding을 진행한다. rem*/
+    padding: 0.5rem 0.875rem;   
+    border: none;
+    background-color: #fff;
+}
+
+.btn.active{
+    border-top: 1px solid rgb(255, 11, 84);
+    border-bottom: 1px solid rgb(255, 11, 84);
+    color: rgb(255, 11, 84);
+}
+
+
+.brand-title{
+    font-size: 1.25rem;
+    color: rgb(255, 11, 84);
+    padding: 1rem 0;;
+    text-transform: capitalize;
+}
+
+.product-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+
+.product-list{
+    border: 1px solid #ececec;
+    text-align:  center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.product-list li{
+    border: 1px solid #ececec;
+}
+
+.product-list li img{
+    height: 150px;
+    width: auto;    /*이미지에 경우 한쪽에 자동으로 맞춘다 그래도 그냥 넣어주었다.*/
+    max-width: 200px;   
+}

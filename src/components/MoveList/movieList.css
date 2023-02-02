@@ -1,0 +1,32 @@
+ul , li {list-style: none;}
+
+.gradeinfo.on12{
+    background-color: rgb(59, 165, 207);
+}
+.gradeinfo.on15{
+    background-color: rgb(139, 189, 64);
+
+}
+.gradeinfo.onall{
+    background-color: rgb(255, 184, 30);
+}
+
+.gradeinfo {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-list {width: 80%; margin:auto;display: flex; flex-wrap: wrap;}
+.movie-list li {width:calc(20% - 8px);  margin: 44px 4px;} 
+.movie-list  li  img{width: 100%;}
+.imgbox {position: relative;}
+.imgbox > .gradeinfo{position: absolute; right: 4px; top: 4px;}
+.title {overflow: hidden; width: 100%; white-space: nowrap; text-overflow: ellipsis;}
+.info{font-size: 0.75rem;}
+.star{color: rgb(203, 198, 43);}
